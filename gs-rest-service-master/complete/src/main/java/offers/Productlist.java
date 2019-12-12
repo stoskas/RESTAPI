@@ -21,6 +21,9 @@ public class Productlist {
         products.add(new Product(9, "offer9", 11357, 23842046, "16/12/2019", "25/12/2019"));
     }
 
+
+    
+
     public static List<Product> GetProducts() {
         return products;
     }
