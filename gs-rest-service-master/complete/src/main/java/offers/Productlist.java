@@ -21,9 +21,6 @@ public class Productlist {
         products.add(new Product(9, "offer9", 11357, 23842046, "16/12/2019", "25/12/2019"));
     }
 
-
-    
-
     public static List<Product> GetProducts() {
         return products;
     }
@@ -70,16 +67,17 @@ public class Productlist {
         products.add(new_product);
         return new_product;
     }
+
     // delete product by id
-    public static boolean delete(int id){
+    public static boolean delete(int id) {
         int productIndex = -1;
-        for(Product b: products) {
-            if(b.getId() == id) {
+        for (Product b : products) {
+            if (b.getId() == id) {
                 productIndex = products.indexOf(b);
                 continue;
             }
         }
-        if(productIndex > -1){
+        if (productIndex > -1) {
             products.remove(productIndex);
         }
         return true;
