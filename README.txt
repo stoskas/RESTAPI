@@ -5,9 +5,9 @@ REST API EXCERCISE
 •	Functions have been constructed in Productlist Class.
 •       Applications Class is the main Class.
 •	PriceComparatorasc Class has been constructed to be called from ProductController Class in order to find offers by price 
-ascending.
+        ascending.
 •	PriceComparatordesc Class has been constructed to be called fro ProductController Class in order to find offers by price 
-descending.
+        descending.
 •	ProductController Class has been constructed to manage http requests.
 
 
