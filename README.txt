@@ -1,14 +1,13 @@
 # RESTAPI
 REST API EXCERCISE
 
-•	Για τη δημιουργία του REST API έγινε η χρήση του Visual Studio Code. 
-•	Στο path TOSKAS_S_RESTAPI\gs-rest-service-master\complete\src\main\java\offers του φακέλου περιέχονται 6 αρχεία .java.
-•	Κάθε αρχείο αποτελεί μία κλάση της δομής REST API.
-•	Στην κλάση Product ορίζονται οι μεταβλητές : id, name, price, code,  expiration_date, availability_date.
-•	Στην κλάση Productlist αρχικοποιείται η λίστα και κατασκευάζονται τα functions.
-•	H κλάση Application αποτελεί τη main κλάση.
-•	Η κλάση PriceComparatorasc δημιουργήθηκε για να καλείται από την κλάση ProductController με σκοπό την αναζήτηση των προσφορών κατά αύξουσα τιμή.
-•	Η κλάση PriceComparatordesc δημιουργήθηκε για να καλείται από την κλάση ProductController με σκοπό την αναζήτηση των προσφορών κατά φθίνουσα τιμή.
-•	Η κλάση ProductController δημιουργήθηκε για να διαχειρίζεται τα εισερχόμενα http requests και να επιστρέφει τα αιτήματα του χρήστη.
-•	Από το terminal του Visual Studio Code ανοίγοντας το φάκελο complete τρέχουμε το ./gradlew bootRun
+
+•	TOSKAS_S_RESTAPI\gs-rest-service-master\complete\src\main\java\offers path includes 6 java files.
+•	Each file is a unique class in REST API.
+•	Functions have been constructed in Productlist Class.
+• Applications Class is the main Class.
+•	PriceComparatorasc Class has been constructed to be called from ProductController Class in order to find offers by price ascending.
+•	PriceComparatordesc Class has been constructed to be called fro ProductController Class in order to find offers by price descending.
+•	ProductController Class has been constructed to manage http requests.
+
 
